@@ -41,3 +41,26 @@
 button:hover + i {
   display: block;
 }
+
+#styledTree {
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .horizontalIcon {
+    display: none;
+  }
+  .verticalIcon {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .horizontalIcon {
+    display: block;
+  }
+  .verticalIcon {
+    display: none;
+  }
+}
